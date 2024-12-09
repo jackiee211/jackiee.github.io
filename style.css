@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    font-family: "Josefin Sans", sans-serif;
+}
+p{
+    color:#303233;
+}
+.clearfix {
+    overflow: auto;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    background-color: #D9EAFD;
+}
+
+.iframe-header{
+    text-align: center;
+    padding: 10px;
+}
+
+.header-h1{
+    color:#9AA6B2;
+    font-size: 30px;
+}
+
+.iframe-header-h1{
+    color:#51575e;
+    font-size: 30px;
+}
+
+.navbar-container{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    background-color: #BCCCDC;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navbar-container li{
+    display: inline;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #9AA6B2;
+    transition: 0.4s ;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #9AA6B2;
+    color: #D9EAFD;
+    transition: 0.4s ;
+}
+
+.sec1-container{
+    background-color: #BCCCDC;
+    height: 100vh;
+    width: 20%;
+    float: left;
+}
+
+.sec2-container{
+    float: left;
+    background-color: #dfe6ec;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.iframe-style{
+    height: 70%;
+    width: 90%;
+}
+
+.sec3-container{
+    background-color: #BCCCDC;
+    height: 100vh;
+    width: 20%;
+    float: right;
+}
+
+.textarea-container{
+    width: 80%;
+    padding-left: 15px;
+    padding-top: 100px;
+}
+
+.hello-img{
+    height: 200px;
+    border-radius: 80%;
+}
+
+.aboutme-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-container{
+    width: 70%;
+}
+
+.aboutme-info-container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.about-text-container{
+    width: 50%;
+    text-align: center;
+    padding: 0 25%;
+}
+
+.hobbysec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.hobbies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-hobby1,.card-hobby2,.card-hobby3,.card-hobby4{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('./images/WhatsApp\ Image\ 2024-12-09\ at\ 16.58.42_f809cba1.jpg');
+    width: 44%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    /* text-align: end; */
+    display: flex;
+    gap: 20px;
+    transition: transform .2s;
+}
+.card-hobby1{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('images/WhatsApp\ Image\ 2024-12-09\ at\ 16.58.42_f809cba1.jpg');
+}
+.card-hobby2{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('images/view-illuminated-neon-gaming-keyboard-setup-controller.jpg');
+}
+.card-hobby3{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('images/pexels-pixabay-267669.jpg');
+}
+.card-hobby4{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('images/jeshoots-com-fzOITuS1DIQ-unsplash.jpg');
+}
+.card-hobby1:hover{
+    transform: scale(1.1);
+}
+.card-hobby2:hover{
+    transform: scale(1.1);
+}
+.card-hobby3:hover{
+    transform: scale(1.1);
+}
+.card-hobby4:hover{
+    transform: scale(1.1);
+}
+.hobby-text-container{
+    height: 90%;
+    padding-top: 15px;
+}
+
+.hobby-text-container:hover{
+    height: 185px;
+    background-color: rgba(0, 0, 0, 0.692);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    width: 100%;
+}
+.santa{
+    background-image:linear-gradient(to bottom, rgba(35, 130, 178, 0.472), rgba(21, 44, 112, 0.209)), url('images/birthday.jpg');
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    /* text-align: end; */
+    display: flex;
+    gap: 20px;
+    height: 600px;
+    background-position: center;
+}
+
+.textarea-container{
+    width: 50%;
+    padding-top: 20%;
+    padding-left: 15%;
+}
+.textarea{
+    width: 90%;
+    height: 150px;
+}
+.contact-form-container{
+    height: 100px;
+}
+.marquee-container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap:nowrap;
+
+}
+.marquee-images {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    animation: moving 15s infinite;
+}
+
+@keyframes moving {
+    0%   {left: 0px;}
+    25% {left:100%}
+    100% {left: 0px;}
+}

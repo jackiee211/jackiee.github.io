@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+</head>
+<body>
+    <div class="contact-form-container">
+        <h1>Contact me!</h1>
+    <form action="thankyou.html" method="get" style="width: 70%;">
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="">Your Name:</label>
+            <input type="text" name="name"><br><br>
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender" value="male">
+            <label for="opinion">male</label>
+            <input type="radio" name="gender" value="female">
+            <label for="opinion">female</label><br> <br>
+            <label for="stats">Marital Status: </label>
+            <select name="stats">
+                <option value="Single">Single</option>
+                <option value="Married">Married</option>
+                <option value="other" selected>other</option>
+            </select><br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email">
+        </fieldset>
+        <fieldset>
+            <legend>about website</legend>
+            <label for="opinion">What's your opinion on my website?</label>
+                    <input type="radio" name="opinion" value="good">
+                    <label for="opinion">good</label></td>
+                    <input type="radio" name="opinion" value="bad">
+                    <label for="opinion">bad</label></td>
+                    <input type="radio" name="opinion" value="normal"><br><br>
+                    <label for="opinion">normal</label>
+                    <label for="ref">You know about my website from:</label>
+                </td>
+                <td>
+                    <select name="ref" style="width: 150px;" multiple >
+                        <option value="internet">internet</option>
+                        <option value="friends">friends</option>
+                        <option value="search">search</option>
+                        <option value="other">other</option>
+                    </select>
+        </fieldset>
+        <fieldset>
+            <legend>Contact Reason:</legend>
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject"><br><br>
+            <label for="message">Message:</label>
+            <textarea name="message" style="width: 350px; height: 150px;" placeholder="explain briefly"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <div class="social-media" style="display: inline;">
+                <a href="https://www.facebook.com/profile.php?id=100017818934151" target="_blank"><img src="images/15707884.png" width="25px" ></a>
+                <a href="https://www.linkedin.com/in/abdelrahmanteleb0xcymage/" target="_blank"><img src="images/174857.png" width="25px"></a>
+            </div>
+        </fieldset>
+    </form>
+    </div>
+</body>
+</html>
